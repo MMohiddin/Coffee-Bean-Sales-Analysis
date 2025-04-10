@@ -1,103 +1,110 @@
-# ☕ Coffee Orders Analysis – Excel Pivot Charts Project
+# Coffee Orders Data Analysis – Excel Pivot Charts Project
 
-## About the Project
+## Project Overview
 
-This project explores customer coffee order trends using Microsoft Excel. The dataset contains detailed order information including drink names, categories, sizes, and order dates. I used **Pivot Tables** and **Pivot Charts** to summarize the data, find insights, and visualize key business metrics.
+This project analyses customer coffee order trends using Microsoft Excel to help a coffee business understand purchasing behaviour, optimise product offerings, and improve operational decisions. The dataset includes order details such as coffee types, roast profiles, sizes, sales figures, and customer demographics.
 
-The project was completed under the guidance of **Mo Chen**, and helped enhance my Excel-based data analysis and visualization skills.
+Using Pivot Tables and Pivot Charts, I summarised the data to uncover key trends in customer preferences, sales performance by region, and seasonal ordering patterns.
+
+This project was completed under the guidance of **Mo Chen**, enhancing my skills in Excel-based data analysis, visualisation, and business insight generation.
 
 ---
 
 ## Business Task
 
-The goal of this project was to help a coffee shop better understand its customer behavior by analyzing:
+The goal was to help the coffee business make data-driven decisions by analysing:
 
-- Which drinks are most and least popular  
-- What size options customers prefer  
-- How orders trend across different days of the week  
-- What product and operational decisions can be made based on customer preferences
+- Most and least popular coffee types  
+- Customer preferences for roast types and sizes  
+- Sales trends across months and years  
+- Regional sales performance  
+- Customer loyalty impact on purchasing behaviour
 
 ---
 
-## Skills Used
+## Skills Applied
 
-- Microsoft Excel  
-- Pivot Tables  
-- Pivot Charts  
-- Data Cleaning  
-- Data Sorting & Filtering  
-- Data Visualization  
-- Insight Generation
+- Microsoft Excel (Pivot Tables, Pivot Charts, XLOOKUP, INDEX-MATCH)  
+- Data Cleaning & Preparation (standardising values, handling missing data)  
+- Data Sorting & Filtering (analysing by year, month, coffee type)  
+- Data Visualisation (bar charts, column charts, trend analysis)  
+- Insight Generation (identifying key trends for business decisions)
 
 ---
 
 ## Process
 
-1. **Data Preparation**  
-   - Cleaned column headers  
-   - Ensured consistency in drink categories and size values  
-   - Converted date fields to weekday labels for better trend analysis  
+### 1. Data Preparation
+- Ensured consistency in coffee type names (Arabica, Robusta, Excelsa, Liberica)  
+- Standardised roast types (Light, Medium, Dark)  
+- Converted order dates into months and years for trend analysis  
+- Verified sales calculations (Quantity × Unit Price)
 
-2. **Pivot Table Creation**  
-   - Created tables to analyze orders by:
-     - Drink name  
-     - Drink category  
-     - Size  
-     - Day of the week  
+### 2. Pivot Table Analysis
+Created Pivot Tables to analyse:
 
-3. **Pivot Chart Visualization**  
-   - Built bar and column charts to highlight:
-     - Top 10 most popular drinks  
-     - Customer size preferences  
-     - Drink category breakdown  
-     - Weekly sales trends  
+- Sales by Coffee Type (*Arabica was the highest-selling*)  
+- Monthly & Yearly Trends (*peak sales in 2021, seasonal fluctuations*)  
+- Regional Performance (*United States dominated sales*)  
+- Top Customers (*identified highest-spending customers*)
 
-4. **Insight Development**  
-   - Interpreted results and charts to generate business recommendations
+### 3. Pivot Chart Visualisation
+Built interactive charts to highlight:
+
+- Sales by Coffee Type (*Arabica led, followed by Liberica*)  
+- Monthly Sales Trends (*highest sales in Q4*)  
+- Regional Breakdown (*US accounted for 75% of revenue*)  
+- Customer Purchase Behaviour (*loyalty card impact on order frequency*)
 
 ---
 
-## Insights
+## Key Insights
 
-- **Latte** and **Caffe Americano** were among the most popular drinks  
-- The most frequently ordered size was **Grande**, followed by **Tall**  
-- **Espresso-based drinks** were the top category overall  
-- **Wednesday** had the highest number of orders, indicating a midweek sales peak  
-- Cold drinks were slightly more popular later in the week, suggesting potential seasonal or behavioral trends
+### 1. Coffee Type Performance
+- **Arabica** was the top-selling coffee (£10,837.56), followed by **Liberica** (£10,018.75)  
+- **Robusta** had the lowest sales (£7,728.80), suggesting potential for promotions or product education
+
+### 2. Regional Sales Trends
+- **United States** generated £35,638.88 (75% of total sales)  
+- **Ireland** and **UK** had significantly lower sales, indicating potential for market expansion strategies
+
+### 3. Top Customers & Loyalty Impact
+- **Allis Wilmore** was the highest-spending customer (£317.07)  
+- Loyalty card data could be further analysed to improve retention strategies
+
+### 4. Seasonal Trends
+- Sales peaked in **November & December**, likely due to holiday demand  
+- **August 2022** saw a dip, possibly due to seasonal factors or supply issues
+
+---
+
+## Recommendations
+
+- **Promote Robusta Coffee** – Since it’s the lowest-selling type, consider bundling offers or highlighting its unique qualities  
+- **Expand US Marketing** – The US is the dominant market; targeted campaigns could further boost sales  
+- **Enhance Loyalty Programmes** – Analyse loyalty card data to reward frequent buyers and improve retention  
+- **Seasonal Stock Planning** – Prepare for higher demand in Q4 (holiday season)  
+- **Explore Growth in Ireland & UK** – Consider localised promotions to increase sales in these regions
 
 ---
 
 ## Tools Used
 
-- Microsoft Excel  
-  - Pivot Tables & Charts  
-  - Data Sorting & Filtering  
-  - Date Functions  
-  - Conditional Formatting
+- Microsoft Excel (Pivot Tables, Pivot Charts, XLOOKUP, INDEX-MATCH)  
+- Data Sorting & Filtering  
+- Conditional Formatting (highlighting top performers)  
+- Date Functions (for trend analysis)
 
 ---
 
+## Project File
 
-## 📁 Project File
-
-You can explore the full interactive Excel report below:
-
-👉 [Download coffeeOrdersProject.xlsx](coffeeOrdersProject.xlsx)
-
----
-
-## Screenshots (Optional)
-
-You can include some images of your charts here if you plan to add them to a `/screenshots` folder in your repo.
-
-### Top Ordered Drinks
-![Top Ordered Drinks](screenshots/top-drinks-chart.png)
-
-### Drink Sizes by Frequency
-![Size Preferences](screenshots/size-preference.png)
+ [Download the full Excel report](coffeeOrdersProject.xlsx)
 
 ---
 
 ## Credits
 
-- Guided by **Mo Chen**
+**Guidance:** Mo Chen  
+**Data Analysis & Reporting:** Mohammed Mohiddin
+
