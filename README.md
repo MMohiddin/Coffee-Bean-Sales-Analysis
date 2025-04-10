@@ -1,4 +1,7 @@
+<img src="https://github.com/user-attachments/assets/0afb68e8-d78e-4b43-bd1b-c8061f18349c" width="300" />
+
 # Coffee Orders Data Analysis – Excel Pivot Charts Project
+
 
 ## Project Overview
 
@@ -58,6 +61,9 @@ Built interactive charts to highlight:
 
 ---
 
+![Screenshot 2025-04-05 210507](https://github.com/user-attachments/assets/d9052978-3c44-4eed-9b8a-372e8e529db9)
+
+
 ## Key Insights
 
 ### 1. Coffee Type Performance
@@ -99,7 +105,7 @@ Built interactive charts to highlight:
 
 ## Project File
 
- [Download the full Excel report](coffeeOrdersProject.xlsx)
+ [Download the Excel Dashboard](coffeeOrdersProject.xlsx)
 
 ---
 
